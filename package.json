@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "kaboom": "^3000.1.17"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  },
+  "scripts": {
+    "build": "parcel build index.html --public-url ./"
+
+  }
+
+}
+
+
