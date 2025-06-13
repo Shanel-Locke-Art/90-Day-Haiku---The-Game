@@ -2,7 +2,7 @@ import { dialogue } from "../../uiComponents/dialogue.js";
 import { playerState } from "../../state/stateManagers.js";
 
 const antiqueKeyLines = [
-  "Randy's pod glows soft—\nMisnamed towns in bold shirts blur,\nDreams flirt, never stay.",
+  "Iron whispers age—\na secret waits in silence,\nrusted teeth still turn.",
 ];
 
 export function generateAntiqueKeyComponents(k, pos) {
