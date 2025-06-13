@@ -36,7 +36,7 @@ export default async function cstore(k) {
 
   colorizeBackground(k, 240, 200, 120);
 
-  const mapData = await fetchMapData("/assets/maps/cstore.json");
+  const mapData = await fetchMapData("./assets/maps/cstore.json");
   const map = k.add([k.pos(530, 222)]);
   const interactPrompt = createInteractPrompt(k);
   const heartBarInstance = healthBar(k);
